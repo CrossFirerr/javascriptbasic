@@ -204,7 +204,7 @@
 //     console.log("mowwww");
 //   default:
 //     break;
-//     console.log("asdasdasdasda");
+//     console.log("asdasdasdasda");++
 // }
 ////////////logical operator//////
 // const age = 0;
@@ -225,7 +225,7 @@
 // const value = ["loyus", 1232, "maharjan", null, undefined, () => {}];
 // console.log(value);
 
-const friuts = ["manago", "apple", "banana", "orange"];
+// const friuts = ["manago", "apple", "banana", "orange"];
 // const value = friuts.length;
 // const value = friuts[1];
 // friuts.push("watermelon");//   will give data on the last
@@ -247,4 +247,57 @@ const friuts = ["manago", "apple", "banana", "orange"];
 // numeric value in array\
 // friuts.sort();
 // friuts.reverse();
+// console.log(friuts);
+
+////////////loops////////////////
+// //////for loop//
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+// }
+
+//while loop/
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+///do/while loop///
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 10);
+
+///breaking out of loop////
+// brea/k
+// for (let i = 0; i <= 100; i++) {
+//   console.log(i);
+//   if (i === 20) {
+//     break;
+//   }
+// }
+
+// for (let i = 0; i <= 100; i++) {
+//   // if (i === 10) {
+//   //   continue;
+//   // }
+//   if (i % 2 === 1) {
+//     continue;
+//   }
+//   //divided by 2
+//   console.log(i);
+// }
+
+//////// JS specific Array Loops//////
+//for of//
+const friuts = ["apple", "banana", "mango", "orange"];
 console.log(friuts);
+// const upperFriuts = [];
+// for (let item of friuts) {
+//   upperFriuts.push("sku-" + item.toUpperCase());
+// }
+// console.log(upperFriuts);{}
+for (let i = 0; i < friuts.length; i++) {
+  console.log(i, friuts[i]);
+}

@@ -290,14 +290,68 @@
 // }
 
 //////// JS specific Array Loops//////
-//for of//
-const friuts = ["apple", "banana", "mango", "orange"];
-console.log(friuts);
-// const upperFriuts = [];
-// for (let item of friuts) {
-//   upperFriuts.push("sku-" + item.toUpperCase());
+// //for of//
+// // console.log(friuts);
+// // // const upperFriuts = [];
+// // // for (let item of friuts) {
+// // //   upperFriuts.push("sku-" + item.toUpperCase());
+// // // }
+// // console.log(upperFriuts);{}
+// for (let i = 0; i < friuts.length; i++) {
+//   console.log(i, friuts[i]);
 // }
-// console.log(upperFriuts);{}
-for (let i = 0; i < friuts.length; i++) {
-  console.log(i, friuts[i]);
-}
+/////foreEach///
+// friuts.forEach((friuts, index) => {
+//   console.log(index, friuts);
+// });
+///MAP///
+// const newData = friuts.map((item, i) => {
+//   // console.log(i, item);
+//   // return "LO-" + item.toUpperCase();//uppercase
+//   // if (item.includes("n")) {
+//   //   return item; //// if you want to remove some specific item or character
+//   // }
+// });
+// console.log(newData);
+// const newData = friuts.filter((item, i) => {
+//   console.log(item, i);
+//   return item.includes("");
+//   // if (item.includes("")) {
+//   //   return true;
+//   // }
+// });
+// const newData = friuts.filter((item, i) => item.includes(""));
+// console.log(newData);
+
+//               const friuts = ["apple", "banana", "mango", "orange"];
+// //////reduce///
+
+// const money = [123, 12, 312, 312, 31, 231, 23, 123, 123];
+
+// const total = money.reduce((subTtl, item) => {
+//   return subTtl + item;
+// });
+// console.log(total);
+
+//////every loop/////
+
+// const money = [234, 23, 42, 3423, 423, 423, 4, 234];
+// const fruits = ["apple", "banana", "orange "];
+// const result = fruits.every((item) => {
+//   console.log(item);
+//   return item.includes("");
+// });
+// const result = money.every((num) => {
+//   return (num = 100);
+// });
+// console.log(result);
+
+/////
+// const money = [234, 23, 42, 3423, 423, 423, 4, 234];
+// const result = money.includes(23);
+// const result = money.find((item) => item === 23);
+// const result = money.indexOf();
+// console.log(result);
+
+// const loveArg = new Array(100).fill("");
+// console.log(loveArg);

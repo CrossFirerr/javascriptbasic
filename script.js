@@ -379,12 +379,14 @@
 
 // const today =  new Date();
 // const today = Date();
-// const today = Date.now();
-const today = new Date();
-// const date = today.getDay();
-// const date = today.getFullYear();
-// const date = today.get();
-// const data = today.toLocaleDateStrin?g();
-// console.log(today);
-// const data = today.toISOString();
-console.log(today);
+// const today = new Date("2002-08-09");
+// // const today = new Date("2020-07-08");
+// // const date = today.getDay();
+// // const date = today.getFullYear();
+// // const date = today.get();
+// // const data = today.toLocaleDateStrin?g();
+// // console.log(today);
+// // const data = today.toISOString();
+// // today.setDate(today.getDate() + 10);
+
+// console.log(today.getTime());

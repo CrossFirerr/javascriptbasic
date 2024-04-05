@@ -355,3 +355,36 @@
 
 // const loveArg = new Array(100).fill("");
 // console.log(loveArg);
+
+///challanges////
+
+///crate a random number///
+// const arg = [];
+// for (let i = 0; i < 50; i++) {
+//   const num = Math.floor(Math.random() * 100 + 1);
+//   arg[i] = num;
+// }
+
+// /////decending order///
+// arg.sort((a, b) => {
+//   b - a;
+// });
+// console.log(arg);
+// //////total array
+// const total = arg.reduce((lo, ur) => lo + ur, 0);
+// // console.log(total);
+
+// ///divide into odd and even array/////
+// const evennArg =  arg.filter(())
+
+// const today =  new Date();
+// const today = Date();
+// const today = Date.now();
+const today = new Date();
+// const date = today.getDay();
+// const date = today.getFullYear();
+// const date = today.get();
+// const data = today.toLocaleDateStrin?g();
+// console.log(today);
+// const data = today.toISOString();
+console.log(today);

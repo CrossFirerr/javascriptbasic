@@ -403,7 +403,7 @@ const person = {
   isMarried: true,
   hasPet: "puppy",
   gender: null,
-  skillSets: ["html", "css"],
+  skillSets: ["html", "css", ["flexbooc", "grid sytem"]],
   parensts: {
     father: "dad",
     mother: "momm",
@@ -412,4 +412,10 @@ const person = {
     return "man man";
   },
 };
-console.log(person);
+// const data = person.phone;
+// const data = person["name"];
+// const data = person.skillSets[2][1];
+// const data = person.parensts.mother;
+const data = person.bio();
+
+console.log(person, data);

@@ -24,7 +24,7 @@
 // let a = 8;
 // const b = 1;
 // const c = a;
-////ADD
+// //ADD
 // const result = a + b + c;
 ///sub
 // const result = a - b;
@@ -40,7 +40,7 @@
 // a++;
 //decrement
 // a--;
-// console.log(a);
+// console.log(result);
 /////math object/////
 // const answer = Math.PI;
 //Math.round()
@@ -390,3 +390,26 @@
 // // today.setDate(today.getDate() + 10);
 
 // console.log(today.getTime());
+// const today = Date();
+// display = "not good mate";
+// console.log(today, display);
+
+///////////////////////////////////OBJECTS///////////////////
+
+/////premative///
+const person = {
+  name: "loyus maharjan",
+  phone: 123123123,
+  isMarried: true,
+  hasPet: "puppy",
+  gender: null,
+  skillSets: ["html", "css"],
+  parensts: {
+    father: "dad",
+    mother: "momm",
+  },
+  bio: () => {
+    return "man man";
+  },
+};
+console.log(person);

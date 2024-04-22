@@ -440,5 +440,12 @@ const person = {
 // const { name, phone, room = "N/A" } = person;
 // console.log(name, phone, room);
 //////rest///
-const { name, phone, parensts, ...rest } = person;
-console.log(rest);
+// const { name, phone, parensts, ...rest } = person;
+// console.log(rest);
+/////spread//////
+const mis = {
+  title: "soft",
+  salt: 10,
+};
+const combo = { ...person, ...mis };
+console.log(combo);

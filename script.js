@@ -412,10 +412,33 @@ const person = {
     return "man man";
   },
 };
+////update data////
 // const data = person.phone;
 // const data = person["name"];
 // const data = person.skillSets[2][1];
 // const data = person.parensts.mother;
-const data = person.bio();
+// const data = person.bio();
+// person.name = "ursa";
+///order doesnt maatters
+///////update data///
+// person.address = "sydney";
+// person.parensts.md = 2020;
+// person.skillSets.push("danger");
 
-console.log(person, data);
+/////delete data////
+// person.phone = null; ////undifined
+// delete person.phone;
+// person.skillSets.pop();
+// delete person.parensts.mother;
+// console.log(person);
+
+/////destructure/////
+// const { name, phone } = person;
+// console.log(name, phone);
+// person.room;
+/////default///
+// const { name, phone, room = "N/A" } = person;
+// console.log(name, phone, room);
+//////rest///
+const { name, phone, parensts, ...rest } = person;
+console.log(rest);

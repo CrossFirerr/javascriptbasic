@@ -443,9 +443,19 @@ const person = {
 // const { name, phone, parensts, ...rest } = person;
 // console.log(rest);
 /////spread//////
-const mis = {
-  title: "soft",
-  salt: 10,
-};
-const combo = { ...person, ...mis };
-console.log(combo);
+// const mis = {
+//   title: "soft",
+//   salt: 10,
+// };
+// const combo = { ...person, ...mis };
+// console.log(combo);
+
+console.log(person);
+// for (let key in person) {
+//   console.log(key, person[key]);
+// }
+
+// const personArg = Object.entries(person);
+// const personArg = Object.keys(person);
+const personArg = Object.values(person);
+console.log(personArg);

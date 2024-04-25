@@ -1,7 +1,7 @@
 // console.log("hello World");
 
 // alert("supp");
-////===variable///(only character,num,$,@)//////
+// //===variable///(only character,num,$,@)//////
 
 // var,let,const
 // var name; //creating a variable
@@ -18,53 +18,53 @@
 // let FirstName = "loyus"; //pascal case
 // let FIRSTNAME = "loyus"; //
 // console.log(firstName);
-/////////////////////////////////
-/////OPERATORS (mathmathical operators, compare operators, logical operators)
-//Arithamatic//
+// ///////////////////////////////
+// ///OPERATORS (mathmathical operators, compare operators, logical operators)
+// Arithamatic//
 // let a = 8;
 // const b = 1;
 // const c = a;
 // //ADD
 // const result = a + b + c;
-///sub
+// /sub
 // const result = a - b;
-//multi
+// multi
 // const result = a * b;
 // div
 // const result = a / b;
-//exponentiation
+// exponentiation
 // const result = a ** b;
-//Modulus
+// Modulus
 // const result = a % b;
-//increment
+// increment
 // a++;
-//decrement
+// decrement
 // a--;
 // console.log(result);
-/////math object/////
+// ///math object/////
 // const answer = Math.PI;
-//Math.round()
+// Math.round()
 // const answer = Math.round(4.7);
 // power
 // const answer = Math.pow(2, 3);
-//square
+// square
 // const answer = Math.sqrt(25);
-//ceil
+// ceil
 // const answer = Math.ceil(2.3);
-//floor
+// floor
 // const answer = Math.floor(2.3);
-////min
+// //min
 // const answer = Math.min(2, 3, 1, 4, 5, 6, 7, 8, 2);
 // //max
 // const answer = Math.max(2, 3, 1, 4, 5, 6, 7, 8, 2);
-//random
+// random
 
 // const answer = Math.random() * 50;
 // const val = Math.floor(answer);
 
 // console.log(val);
-////////////////////////////////////////////////////////////////////////
-////comsparisons////
+// //////////////////////////////////////////////////////////////////////
+// //comsparisons////
 // //== (dats is same or not)
 // const v1 = 10;
 // const v2 = "10";
@@ -79,14 +79,14 @@
 // // const result = v1 <= v2;
 
 // console.log(result);
-////////////////////////////////////////////////////////////////////////
-//Data TYPE
-////primitives
-///string "LOyus maharjan" (0 = octal value)
+// //////////////////////////////////////////////////////////////////////
+// Data TYPE
+// //primitives
+// /string "LOyus maharjan" (0 = octal value)
 // const value = "loyus maharjan"; //`` //''
-//Boolen data type
+// Boolen data type
 // const value = true;
-///NULL/ defind in the system meomry
+// /NULL/ defind in the system meomry
 // let user = "loyus";
 // console.log(user); ///loyus
 // const user2 = user;
@@ -95,7 +95,7 @@
 // console.log(user); //ursa
 // console.log(user2); //loyus
 
-////////Reference data type
+// //////Reference data type
 // const user = {
 //   fName: "loyus",
 //   lName: "Maharjan",
@@ -107,7 +107,7 @@
 // console.log(user);
 // console.log(user1);
 
-///nNUmber/////
+// /nNUmber/////
 // // safe number range is -2^53-1 to 2^51+1
 // const num = "54ad";
 // // const value = num;
@@ -116,7 +116,7 @@
 // console.log(typeof value, num, isNaN(value));
 
 // const str = " loyus maharjan";
-////////////STRING////
+// //////////STRING////
 // Escape string
 // const str = "loyus" + ",maharjan";
 // const user = str.toLowerCase;();
@@ -136,13 +136,13 @@
 // const value = str.split(" ").join();//// join the array
 // const value = str.concat(" new text in str", " more data"); add value
 // console.log(value);
-/////////////////////////////////////////////////////////
-///logical operator
+// ///////////////////////////////////////////////////////
+// /logical operator
 
 // Conditional statement
-///IF/////////
+// /IF/////////
 // truth value : true,number postive or negative, "asd",{}=object,[]=array,()=>{}function
-//falsey value :false, zero , ""empty string, NaN,null , undefined
+// falsey value :false, zero , ""empty string, NaN,null , undefined
 
 // const value = true
 // const value = false
@@ -151,8 +151,8 @@
 //   ///statement 1
 //   console.log("pass pass pass");
 // }
-//&& checks the code after checking the first code execution
-///OR(||) =
+// && checks the code after checking the first code execution
+// /OR(||) =
 // const age = 20;
 // // const vip = true;
 // const vip = false;
@@ -180,7 +180,7 @@
 //   console.log("go home man");
 // }
 
-////ELSE IF /////
+// //ELSE IF /////
 // const pet = "cat";
 // if (pet === "cat ") {
 //   console.log("meoww");
@@ -191,7 +191,7 @@
 // } else {
 //   console.log("asdasdasd");
 // }
-///////cleaner verson of ELSE if condition (SWITCH)////
+// /////cleaner verson of ELSE if condition (SWITCH)////
 // const pet = "cow";
 // switch (pet) {
 //   case "cat":
@@ -206,7 +206,7 @@
 //     break;
 //     console.log("asdasdasdasda");++
 // }
-////////////logical operator//////
+// //////////logical operator//////
 // const age = 0;
 // const vip = true;
 // if (age) {
@@ -217,11 +217,11 @@
 // const value = age || "MN";
 // console.log(value);
 
-/////ternary///
+// ///ternary///
 // const age = 40;
 // age < 60 ? console.log("welcom") : console.log("o home");
 
-//////////ARRAy/////////////////
+// ////////ARRAy/////////////////
 // const value = ["loyus", 1232, "maharjan", null, undefined, () => {}];
 // console.log(value);
 
@@ -231,7 +231,7 @@
 // friuts.push("watermelon");//   will give data on the last
 // friuts.unshift("watermelon"); will give data on the frist
 // friuts.splice(2, 0, "watermelon")add item in array can be used for multii items
-////deleting the array
+// //deleting the array
 // const value = friuts.shift();
 // const value = friuts.splice(2, 2);
 // const value = friuts.slice(2, 4);
@@ -249,27 +249,27 @@
 // friuts.reverse();
 // console.log(friuts);
 
-////////////loops////////////////
+// //////////loops////////////////
 // //////for loop//
 // for (let i = 10; i > 0; i--) {
 //   console.log(i);
 // }
 
-//while loop/
+// while loop/
 // let i = 0;
 // while (i < 10) {
 //   console.log(i);
 //   i++;
 // }
 
-///do/while loop///
+// /do/while loop///
 // let i = 0;
 // do {
 //   console.log(i);
 //   i++;
 // } while (i < 10);
 
-///breaking out of loop////
+// /breaking out of loop////
 // brea/k
 // for (let i = 0; i <= 100; i++) {
 //   console.log(i);
@@ -289,7 +289,7 @@
 //   console.log(i);
 // }
 
-//////// JS specific Array Loops//////
+// ////// JS specific Array Loops//////
 // //for of//
 // // console.log(friuts);
 // // // const upperFriuts = [];
@@ -300,11 +300,11 @@
 // for (let i = 0; i < friuts.length; i++) {
 //   console.log(i, friuts[i]);
 // }
-/////foreEach///
+// ///foreEach///
 // friuts.forEach((friuts, index) => {
 //   console.log(index, friuts);
 // });
-///MAP///
+// /MAP///
 // const newData = friuts.map((item, i) => {
 //   // console.log(i, item);
 //   // return "LO-" + item.toUpperCase();//uppercase
@@ -333,7 +333,7 @@
 // });
 // console.log(total);
 
-//////every loop/////
+// ////every loop/////
 
 // const money = [234, 23, 42, 3423, 423, 423, 4, 234];
 // const fruits = ["apple", "banana", "orange "];
@@ -346,7 +346,7 @@
 // });
 // console.log(result);
 
-/////
+// ///
 // const money = [234, 23, 42, 3423, 423, 423, 4, 234];
 // const result = money.includes(23);
 // const result = money.find((item) => item === 23);
@@ -356,9 +356,9 @@
 // const loveArg = new Array(100).fill("");
 // console.log(loveArg);
 
-///challanges////
+// /challanges////
 
-///crate a random number///
+// /crate a random number///
 // const arg = [];
 // for (let i = 0; i < 50; i++) {
 //   const num = Math.floor(Math.random() * 100 + 1);
@@ -394,55 +394,55 @@
 // display = "not good mate";
 // console.log(today, display);
 
-///////////////////////////////////OBJECTS///////////////////
+// /////////////////////////////////OBJECTS///////////////////
 
-/////premative///
-const person = {
-  name: "loyus maharjan",
-  phone: 123123123,
-  isMarried: true,
-  hasPet: "puppy",
-  gender: null,
-  skillSets: ["html", "css", ["flexbooc", "grid sytem"]],
-  parensts: {
-    father: "dad",
-    mother: "momm",
-  },
-  bio: () => {
-    return "man man";
-  },
-};
-////update data////
+// ///premative///
+// const person = {
+//   name: "loyus maharjan",
+//   phone: 123123123,
+//   isMarried: true,
+//   hasPet: "puppy",
+//   gender: null,
+//   skillSets: ["html", "css", ["flexbooc", "grid sytem"]],
+//   parensts: {
+//     father: "dad",
+//     mother: "momm",
+//   },
+//   bio: () => {
+//     return "man man";
+//   },
+// };
+// //update data////
 // const data = person.phone;
 // const data = person["name"];
 // const data = person.skillSets[2][1];
 // const data = person.parensts.mother;
 // const data = person.bio();
 // person.name = "ursa";
-///order doesnt maatters
-///////update data///
+// /order doesnt maatters
+// /////update data///
 // person.address = "sydney";
 // person.parensts.md = 2020;
 // person.skillSets.push("danger");
 
-/////delete data////
+// ///delete data////
 // person.phone = null; ////undifined
 // delete person.phone;
 // person.skillSets.pop();
 // delete person.parensts.mother;
 // console.log(person);
 
-/////destructure/////
+// ///destructure/////
 // const { name, phone } = person;
 // console.log(name, phone);
 // person.room;
-/////default///
+// ///default///
 // const { name, phone, room = "N/A" } = person;
 // console.log(name, phone, room);
-//////rest///
+// ////rest///
 // const { name, phone, parensts, ...rest } = person;
 // console.log(rest);
-/////spread//////
+// ///spread//////
 // const mis = {
 //   title: "soft",
 //   salt: 10,
@@ -450,12 +450,19 @@ const person = {
 // const combo = { ...person, ...mis };
 // console.log(combo);
 
-console.log(person);
-// for (let key in person) {
-//   console.log(key, person[key]);
-// }
+// console.log(person);
+// // for (let key in person) {
+// //   console.log(key, person[key]);
+// // }
 
-// const personArg = Object.entries(person);
-// const personArg = Object.keys(person);
-const personArg = Object.values(person);
-console.log(personArg);
+// // const personArg = Object.entries(person);
+// // const personArg = Object.keys(person);
+// const personArg = Object.values(person);
+// console.log(personArg);
+
+/////js-Fucntions////
+function sayHi() {
+  const str = `hello my fren`;
+  console.log(str);
+}
+sayHi();

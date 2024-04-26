@@ -461,8 +461,66 @@
 // console.log(personArg);
 
 /////js-Fucntions////
-function sayHi() {
-  const str = `hello my fren`;
-  console.log(str);
-}
-sayHi();
+// function sayHi(name, add = "N/A") {
+//   const str = "hello my " + name + " how are you " + add + "";
+//   console.log(str);
+// }
+// sayHi(`sam`, "sydney");
+// sayHi(`sad`, "ktm");
+// sayHi(`sa`);
+// sayHi(`sadsm`);
+// sayHi(`saasdm`);
+///////////////////////
+// function sayHi(name, add = "N/A") {
+//   // const str = "hello my " + name + " how are you " + add + "";
+//   const str = `
+//   hello there this is ${name} , ncie to meet you.I live in ${add}`;
+//   console.log(str);
+// }
+
+/////////////////////ES6 function
+
+// const sayHi = (name, add = "N/A") => {
+//   const str = `
+//     hello there this is ${name} , ncie to meet you.I live in ${add}`;
+//   console.log(str);
+// };
+// sayHi(`sam`, "sydney");
+// sayHi(`sad`, "ktm");
+// sayHi(`sa`);
+// sayHi(`sadsm`);
+// sayHi(`saasdm`);
+
+// const loyBio =
+//   " loyus is from sydney he likes to code.He is a very hard working guy";
+// const ramBio =
+//   " sam is from sydney he likes to code.He is a very hard working guy";
+// const willBuo =
+//   " will is from sydney he likes to code.He is a very hard working guy";
+
+const userList = [
+  {
+    name: "loyus",
+    location: "sudney",
+    carrie: "developer",
+  },
+  {
+    name: "ram",
+    location: "sudney",
+    carrie: "developer",
+    intrest: "dance",
+  },
+  {
+    name: "ram",
+    location: "sudney",
+    carrie: "developer",
+  },
+];
+
+console.log(userList);
+const personBio = () => {
+  const str = "loyus is for sydney he likes to code and cook";
+  return str;
+};
+const data = personBio();
+console.log(data);

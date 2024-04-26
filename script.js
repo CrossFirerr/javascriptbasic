@@ -511,16 +511,23 @@ const userList = [
     intrest: "dance",
   },
   {
-    name: "ram",
+    name: "shyam",
     location: "sudney",
     carrie: "developer",
   },
 ];
 
 console.log(userList);
-const personBio = () => {
-  const str = "loyus is for sydney he likes to code and cook";
+const personBio = ({ name, location }) => {
+  // console.log(data);
+  // const { name, location } = data;
+  const str = `${name} is for ${location} he likes to code and cook`;
   return str;
 };
-const data = personBio();
-console.log(data);
+
+// const data = personBio();
+// console.log(userList);
+userList.forEach((item, i) => {
+  const data = personBio(item);
+  console.log(data);
+});
